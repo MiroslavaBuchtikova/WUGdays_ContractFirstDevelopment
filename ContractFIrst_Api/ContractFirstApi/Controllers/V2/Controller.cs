@@ -1,23 +1,22 @@
 using Microsoft.AspNetCore.Mvc;
-
-using ContractFirstApi.Petstore.v2;
+using Petstore.v2.Controllers;
 
 namespace ContractFirstApi.Controllers.V2
 {
     [ApiExplorerSettings(GroupName = "v2")]
-    public class Controller : Petstore.v2.ControllerBase
+    public class Controller : PetsApiController
     {
-        public override Task CreatePets([Microsoft.AspNetCore.Mvc.FromQuery] int ownerId)
+        public override IActionResult CreatePets(int ownerId)
         {
             throw new NotImplementedException();
         }
 
-        public override Task<ICollection<Pet>> ListPets([Microsoft.AspNetCore.Mvc.FromQuery] int? limit, [Microsoft.AspNetCore.Mvc.FromQuery] bool displayOwnerInfo)
+        public override IActionResult ListPets(bool displayOwnerInfo, int? limit)
         {
             throw new NotImplementedException();
         }
 
-        public override Task<Pet> ShowPetById(string petId)
+        public override IActionResult ShowPetById(string petId)
         {
             throw new NotImplementedException();
         }

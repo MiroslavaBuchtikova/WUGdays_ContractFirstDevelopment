@@ -11,8 +11,78 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\v1" />
+    <Folder Include="Services\v1\src" />
+    <Folder Include="Services\v2" />
+    <Folder Include="Services\v2\src" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Services\v1\src\Org.OpenAPITools\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="Services\v1\src\Org.OpenAPITools\appsettings.json" />
+    <_ContentIncludedByDefault Remove="Services\v1\src\Org.OpenAPITools\Properties\launchSettings.json" />
+    <_ContentIncludedByDefault Remove="Services\v1\src\Org.OpenAPITools\wwwroot\openapi-original.json" />
+    <_ContentIncludedByDefault Remove="Connected Services\Petstore.v1\ConnectedService.json" />
+    <_ContentIncludedByDefault Remove="Connected Services\Petstore.v1\OpenAPI.nswag.json" />
+    <_ContentIncludedByDefault Remove="Connected Services\Petstore.v2\ConnectedService.json" />
+    <_ContentIncludedByDefault Remove="Connected Services\Petstore.v2\OpenAPI.nswag.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Services\v1\.openapi-generator-ignore" />
+    <None Remove="Services\v2\src\Org.OpenAPITools\Attributes\**" />
+    <None Remove="Services\v2\src\Org.OpenAPITools\Authentication\**" />
+    <None Remove="Services\v2\src\Org.OpenAPITools\Converters\**" />
+    <None Remove="Services\v2\src\Org.OpenAPITools\Formatters\**" />
+    <None Remove="Services\v2\src\Org.OpenAPITools\Models\**" />
+    <None Remove="Services\v2\src\Org.OpenAPITools\OpenApi\**" />
+    <None Remove="Services\v2\src\Petstore.v2\Authentication\**" />
+    <None Remove="Services\v2\src\Petstore.v2\Formatters\**" />
+    <None Remove="Services\v2\src\Petstore.v2\OpenApi\**" />
+    <None Remove="Services\v2\src\Petstore.v2\.gitignore" />
+    <None Remove="Services\v2\src\Petstore.v2\Petstore.v2.nuspec" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\v2\src\Org.OpenAPITools\Attributes\**" />
+    <Compile Remove="Services\v2\src\Org.OpenAPITools\Authentication\**" />
+    <Compile Remove="Services\v2\src\Org.OpenAPITools\Converters\**" />
+    <Compile Remove="Services\v2\src\Org.OpenAPITools\Formatters\**" />
+    <Compile Remove="Services\v2\src\Org.OpenAPITools\Models\**" />
+    <Compile Remove="Services\v2\src\Org.OpenAPITools\OpenApi\**" />
+    <Compile Remove="Services\v2\src\Petstore.v2\Authentication\**" />
+    <Compile Remove="Services\v2\src\Petstore.v2\Formatters\**" />
+    <Compile Remove="Services\v2\src\Petstore.v2\OpenApi\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Services\v2\src\Org.OpenAPITools\Attributes\**" />
+    <EmbeddedResource Remove="Services\v2\src\Org.OpenAPITools\Authentication\**" />
+    <EmbeddedResource Remove="Services\v2\src\Org.OpenAPITools\Converters\**" />
+    <EmbeddedResource Remove="Services\v2\src\Org.OpenAPITools\Formatters\**" />
+    <EmbeddedResource Remove="Services\v2\src\Org.OpenAPITools\Models\**" />
+    <EmbeddedResource Remove="Services\v2\src\Org.OpenAPITools\OpenApi\**" />
+    <EmbeddedResource Remove="Services\v2\src\Petstore.v2\Authentication\**" />
+    <EmbeddedResource Remove="Services\v2\src\Petstore.v2\Formatters\**" />
+    <EmbeddedResource Remove="Services\v2\src\Petstore.v2\OpenApi\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Services\v2\src\Org.OpenAPITools\Attributes\**" />
+    <Content Remove="Services\v2\src\Org.OpenAPITools\Authentication\**" />
+    <Content Remove="Services\v2\src\Org.OpenAPITools\Converters\**" />
+    <Content Remove="Services\v2\src\Org.OpenAPITools\Formatters\**" />
+    <Content Remove="Services\v2\src\Org.OpenAPITools\Models\**" />
+    <Content Remove="Services\v2\src\Org.OpenAPITools\OpenApi\**" />
+    <Content Remove="Services\v2\src\Petstore.v2\Authentication\**" />
+    <Content Remove="Services\v2\src\Petstore.v2\Formatters\**" />
+    <Content Remove="Services\v2\src\Petstore.v2\OpenApi\**" />
   </ItemGroup>
 
 </Project>

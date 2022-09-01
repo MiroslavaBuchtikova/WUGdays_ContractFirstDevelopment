@@ -57,6 +57,15 @@ export class Configuration {
         else {
             this.credentials = {};
         }
+
+        // init default BasicAuth credential
+        if (!this.credentials['BasicAuth']) {
+            this.credentials['BasicAuth'] = () => {
+                return (this.username || this.password)
+                    ? btoa(this.username + ':' + this.password)
+                    : undefined;
+            };
+        }
     }
 
     /**

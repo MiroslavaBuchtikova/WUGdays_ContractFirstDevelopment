@@ -17,13 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Servers\v1" />
-    <Folder Include="Servers\v1\src" />
-    <Folder Include="Servers\v2" />
-    <Folder Include="Servers\v2\src" />
-  </ItemGroup>
-
-  <ItemGroup>
     <_ContentIncludedByDefault Remove="Services\v1\src\Org.OpenAPITools\appsettings.Development.json" />
     <_ContentIncludedByDefault Remove="Services\v1\src\Org.OpenAPITools\appsettings.json" />
     <_ContentIncludedByDefault Remove="Services\v1\src\Org.OpenAPITools\Properties\launchSettings.json" />
@@ -32,6 +25,8 @@
     <_ContentIncludedByDefault Remove="Connected Services\Petstore.v1\OpenAPI.nswag.json" />
     <_ContentIncludedByDefault Remove="Connected Services\Petstore.v2\ConnectedService.json" />
     <_ContentIncludedByDefault Remove="Connected Services\Petstore.v2\OpenAPI.nswag.json" />
+    <_ContentIncludedByDefault Remove="Contracts\openapiV1.json" />
+    <_ContentIncludedByDefault Remove="Contracts\openapiV2.json" />
   </ItemGroup>
 
   <ItemGroup>

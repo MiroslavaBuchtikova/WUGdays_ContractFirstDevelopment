@@ -17,10 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\v1" />
-    <Folder Include="Services\v1\src" />
-    <Folder Include="Services\v2" />
-    <Folder Include="Services\v2\src" />
+    <Folder Include="Servers\v1" />
+    <Folder Include="Servers\v1\src" />
+    <Folder Include="Servers\v2" />
+    <Folder Include="Servers\v2\src" />
   </ItemGroup>
 
   <ItemGroup>

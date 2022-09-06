@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Petstore.v1.Controllers;
+using Petstore.v1.Models;
 
 namespace ContractFirstApi.Controllers.V1
 {
     [ApiExplorerSettings(GroupName = "v1")]
+    [ApiController]
     public class Controller : PetsApiController
     {
         public override IActionResult CreatePets()
@@ -13,7 +15,7 @@ namespace ContractFirstApi.Controllers.V1
 
         public override IActionResult ListPets(int? limit)
         {
-            throw new NotImplementedException();
+            return Ok(new List<Pet>());
         }
 
         public override IActionResult ShowPetById(string petId)

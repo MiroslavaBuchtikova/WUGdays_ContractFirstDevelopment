@@ -25,9 +25,4 @@
     <ProjectReference Include="..\ContractFirstApi\ContractFirstApi.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Clients\v1" />
-    <Folder Include="Clients\v2" />
-  </ItemGroup>
-
 </Project>

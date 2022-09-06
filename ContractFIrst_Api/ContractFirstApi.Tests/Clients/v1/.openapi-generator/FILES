@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 PetstoreV1.sln
 README.md
 appveyor.yml
@@ -7,9 +6,6 @@ docs/Error.md
 docs/Pet.md
 docs/PetsApi.md
 git_push.sh
-src/PetstoreV1.Test/Api/PetsApiTests.cs
-src/PetstoreV1.Test/Model/ErrorTests.cs
-src/PetstoreV1.Test/Model/PetTests.cs
 src/PetstoreV1.Test/PetstoreV1.Test.csproj
 src/PetstoreV1/Api/PetsApi.cs
 src/PetstoreV1/Client/ApiClient.cs

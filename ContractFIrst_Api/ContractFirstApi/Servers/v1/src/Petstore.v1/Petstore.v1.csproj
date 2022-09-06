@@ -8,9 +8,9 @@
     <PreserveCompilationContext>true</PreserveCompilationContext>
     <Version>1.0.0</Version>
     <OutputType>Library</OutputType>
-    <AssemblyName>Petstore.v2</AssemblyName>
-    <PackageId>Petstore.v2</PackageId>
-    <UserSecretsId>223fe39d-4e57-447e-9fb2-6890b0646135</UserSecretsId>
+    <AssemblyName>Petstore.v1</AssemblyName>
+    <PackageId>Petstore.v1</PackageId>
+    <UserSecretsId>1f8a620c-b697-4262-8690-277e3e73bc54</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>

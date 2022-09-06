@@ -5,132 +5,7 @@
     <projectFile profileName="IIS Express">ContractFirstApi/ContractFirstApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba7d9e64-da96-40b7-a651-b99a020cfba6" name="Changes" comment="Remove code">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ContractFirstApi/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ContractFirstApi/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ContractFirstApi/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ContractFirstApi/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ContractFirstApi/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContractFirstApi.Tests/TestBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContractFirstApi.Tests/UnitTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/.openapi-generator/FILES" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/build.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactFirstApi.Test/ContactFirstApi.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ContactFirstApi.Test/ContactFirstApi.Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/.openapi-generator-ignore" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/.openapi-generator-ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/.openapi-generator/FILES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/.openapi-generator/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/.openapi-generator/VERSION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/Org.OpenAPITools.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/PetstoreV1.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/appveyor.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/docs/Error.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/docs/Pet.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/docs/PetsApi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/git_push.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1.Test/Api/PetsApiTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1.Test/Model/ErrorTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1.Test/Model/PetTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1.Test/PetstoreV1.Test.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Api/PetsApi.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/ApiClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/ApiException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/ApiResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/ClientUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/Configuration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/ExceptionFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/GlobalConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/HttpMethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/IApiAccessor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/IAsynchronousClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/IReadableConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/ISynchronousClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/Multimap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/OpenAPIDateConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/RequestOptions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Client/RetryConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Model/AbstractOpenAPISchema.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Model/Error.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Model/Pet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/PetstoreV1.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/.openapi-generator-ignore" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/.openapi-generator-ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/.openapi-generator/FILES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/.openapi-generator/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/.openapi-generator/VERSION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/Org.OpenAPITools.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/PetstoreV2.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/appveyor.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/docs/Error.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/docs/Pet.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/docs/PetsApi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/git_push.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2.Test/Api/PetsApiTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2.Test/Model/ErrorTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2.Test/Model/PetTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2.Test/PetstoreV2.Test.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Api/PetsApi.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/ApiClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/ApiException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/ApiResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/ClientUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/Configuration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/ExceptionFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/GlobalConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/HttpMethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/IApiAccessor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/IAsynchronousClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/IReadableConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/ISynchronousClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/Multimap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/OpenAPIDateConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/RequestOptions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Client/RetryConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Model/AbstractOpenAPISchema.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Model/Error.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/Model/Pet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v2/src/PetstoreV2/PetstoreV2.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi.Tests/ContractFirstApi.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi.Tests/ContractFirstApi.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/ContractFirstApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/ContractFirstApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Controllers/V1/Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Controllers/V1/Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Properties/generators.md" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Properties/generators.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/Petstore.v1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/Petstore.v1.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/Attributes/ValidateModelStateAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/Attributes/ValidateModelStateAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/Authentication/ApiAuthentication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/Authentication/ApiAuthentication.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/Controllers/PetsApi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/Controllers/PetsApi.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/Converters/CustomEnumConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/Converters/CustomEnumConverter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/Formatters/InputFormatterStream.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/Formatters/InputFormatterStream.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/Models/Error.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/Models/Error.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/Models/Pet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/Models/Pet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/OpenApi/TypeExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/OpenApi/TypeExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/Petstore.v1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/Petstore.v1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v1/src/Petstore.v1/Petstore.v1.nuspec" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v1/src/Petstore.v1/Petstore.v1.nuspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/.openapi-generator-ignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/.openapi-generator/FILES" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/.openapi-generator/FILES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/.openapi-generator/VERSION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/Org.OpenAPITools.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/Org.OpenAPITools.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/Petstore.v2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/Petstore.v2.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/build.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/Attributes/ValidateModelStateAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/Attributes/ValidateModelStateAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/Authentication/ApiAuthentication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/Authentication/ApiAuthentication.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/Controllers/PetsApi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/Controllers/PetsApi.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/Converters/CustomEnumConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/Converters/CustomEnumConverter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/Formatters/InputFormatterStream.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/Formatters/InputFormatterStream.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/Models/Error.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/Models/Error.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/Models/Pet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/Models/Pet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/OpenApi/TypeExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/OpenApi/TypeExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/Petstore.v2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/Petstore.v2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/Services/v2/src/Petstore.v2/Petstore.v2.nuspec" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Servers/v2/src/Petstore.v2/Petstore.v2.nuspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/openapis/openapiV1.json" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Contracts/openapiV1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContractFirstApi/openapis/openapiV2.json" beforeDir="false" afterPath="$PROJECT_DIR$/ContractFirstApi/Contracts/openapiV2.json" afterDir="false" />
-    </list>
+    <list default="true" id="ba7d9e64-da96-40b7-a651-b99a020cfba6" name="Changes" comment="Clean code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,29 +27,31 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/44628068f92148db028c11dd85e9f7eff3e74384cf0dafcf0594fc3e444caf2/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c28be36dca354ddce4ed8dc0cf55fc145731b354c7d464cfcaf1e4f5bc31e0a6/OpenApiServer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5545b2656401abe1a371ad2756d7d2328a38293f7ee8b163801bbf55cee8/TestInvoker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/buchtikova/RiderProjects/WUGdays_ContractFirstDevelopment/ContractFIrst_Api/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1.Test/Api/PetsApiTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/buchtikova/RiderProjects/Projects/WUGdays_ContractFirstDevelopment/ContractFIrst_Api/ContractFirstApi/Startup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EMejpt8Fc6ndAyBzZMLxj0wNvQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ContractFirstApi">
     <configuration name="ContractFirstApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ContractFirstApi/ContractFirstApi.csproj" />
@@ -224,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662410346187</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Clean code">
+      <created>1662494221525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662494221525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +130,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Remove code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove code" />
+    <MESSAGE value="Clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,53 +139,25 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ContractFirstApi/Controllers/V1/Controller.cs</url>
           <line>16</line>
-          <properties documentPath="$PROJECT_DIR$/ContractFirstApi/Controllers/V1/Controller.cs" initialLine="14" containingFunctionPresentation="method 'ListPets'">
-            <startOffsets>
-              <option value="440" />
-            </startOffsets>
-            <endOffsets>
-              <option value="441" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/ContractFirstApi/Controllers/V1/Controller.cs" initialLine="14" containingFunctionPresentation="method 'ListPets'" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Api/PetsApi.cs</url>
           <line>433</line>
-          <properties documentPath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Api/PetsApi.cs" initialLine="433" containingFunctionPresentation="method 'ListPetsWithHttpInfo'">
-            <startOffsets>
-              <option value="19686" />
-            </startOffsets>
-            <endOffsets>
-              <option value="19687" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Api/PetsApi.cs" initialLine="433" containingFunctionPresentation="method 'ListPetsWithHttpInfo'" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Api/PetsApi.cs</url>
           <line>502</line>
-          <properties documentPath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Api/PetsApi.cs" initialLine="502" containingFunctionPresentation="method 'ListPetsWithHttpInfoAsync'">
-            <startOffsets>
-              <option value="23126" />
-            </startOffsets>
-            <endOffsets>
-              <option value="23127" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Api/PetsApi.cs" initialLine="502" containingFunctionPresentation="method 'ListPetsWithHttpInfoAsync'" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Api/PetsApi.cs</url>
           <line>536</line>
-          <properties documentPath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Api/PetsApi.cs" initialLine="536" containingFunctionPresentation="method 'ListPetsWithHttpInfoAsync'">
-            <startOffsets>
-              <option value="24358" />
-            </startOffsets>
-            <endOffsets>
-              <option value="24525" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/ContractFirstApi.Tests/Clients/v1/src/PetstoreV1/Api/PetsApi.cs" initialLine="536" containingFunctionPresentation="method 'ListPetsWithHttpInfoAsync'" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

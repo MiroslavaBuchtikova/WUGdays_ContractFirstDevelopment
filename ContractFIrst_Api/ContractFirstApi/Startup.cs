@@ -16,8 +16,8 @@ public class Startup
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen(c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API - V1", Version = "v1" });
-            c.SwaggerDoc("v2", new OpenApiInfo { Title = "My API - V2", Version = "v2" });
+            // c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API - V1", Version = "v1" });
+            // c.SwaggerDoc("v2", new OpenApiInfo { Title = "My API - V2", Version = "v2" });
         });
         var mvcCore = services.AddMvcCore();
         mvcCore
@@ -35,8 +35,8 @@ public class Startup
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API - V1");
-                c.SwaggerEndpoint("/swagger/v2/swagger.json", "My API - V2");
+                // c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API - V1");
+                // c.SwaggerEndpoint("/swagger/v2/swagger.json", "My API - V2");
             });
         }
 

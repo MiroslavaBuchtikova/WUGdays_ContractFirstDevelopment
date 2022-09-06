@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Observable} from "rxjs";
-import {Pet, PetsService} from "./api";
+// import {Pet, PetsService} from "./api";
 
 @Component({
   selector: 'app-root',
@@ -9,15 +9,14 @@ import {Pet, PetsService} from "./api";
 })
 export class AppComponent implements OnInit{
   title = 'pet-store';
-  pets: Observable<Pet[]>;
+  // pets: Observable<Pet[]>;
 
-  constructor(public PetService: PetsService) {
-
-  }
+  // constructor(public PetService: PetsService) {
+  //
+  // }
 
   ngOnInit() {
-
-    this.pets = this.PetService.listPets(2);
-    console.log(this.pets)
+    // this.pets = this.PetService.listPets(2);
+    // console.log(this.pets)
   }
 }

@@ -1,4 +1,4 @@
-# WUGdays_University_ContractFirstDevelopment
+# WUGdays Contract First Development
 ![](images/img.png)
 ![](images/img_1.png)![](images/img_2.png)![](images/img_3.png)![](images/img_4.png)
 ![](images/img_5.png)![](images/img_6.png)![](images/img_7.png)![](images/img_8.png)![](images/img_9.png)

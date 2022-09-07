@@ -17,6 +17,5 @@ export class AppComponent implements OnInit{
 
   ngOnInit() {
     // this.pets = this.PetService.listPets(2);
-    // console.log(this.pets)
   }
 }
